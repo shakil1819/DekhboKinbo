@@ -3,4 +3,14 @@ DekhboKinbo - A DVD / Movie /Tv show buying website built using ASP.NET Core MVC
 
 Practice-Branch
 
-- [ ] Microsoft SQL Server 19.0.1 need to be installed 
+# Database
+- [ ] Microsoft SQL Server 19.0.1
+# Coding Tools
+- [ ] Rider IDE used
+- [ ] ReSharper
+# Others
+- [ ] C#
+- [ ] HTML
+- [ ] JS
+- [ ] Bootstrap
+- [ ] ASP.NET Core MVC
