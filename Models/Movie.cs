@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.InteropServices.JavaScript;
 using DekhboKinbo.Data;
 
@@ -12,4 +13,17 @@ public class Movie
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
     public MovieCategory MovieCategory { get; set; }
+    
+    //relationship
+    public List<Actor_Movie> Actor_Movies { get; set; }
+    
+    //cinema
+    public int CinemaID { get; set; }
+    [ForeignKey("CinemaID")] 
+    public Cinema Cinema { get; set; }
+    
+    //producer
+    public int ProducerID { get; set; }
+    [ForeignKey("ProducerID")] 
+    public Producer Producer { get; set; }
 }

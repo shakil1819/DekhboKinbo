@@ -12,4 +12,8 @@ public class Actor
 
     public string Bio { get; set; }
     
+    //relationships
+    public List<Actor_Movie> Actor_Movies { get; set; }
+    
+    
 }
