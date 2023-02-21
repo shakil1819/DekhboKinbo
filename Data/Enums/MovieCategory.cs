@@ -6,4 +6,6 @@ public enum MovieCategory
     Comedy,
     Drama,
     Documentary,
+    Cartoon,
+    Horror
 }
