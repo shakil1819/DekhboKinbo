@@ -21,4 +21,22 @@
       <PackageReference Include="System.Diagnostics.Tools" Version="4.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Pages\Actors\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Actors\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Cinemas\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Producers\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Pages\Producers\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Pages\Cinemas\Index.cshtml" />
+    </ItemGroup>
+
 </Project>
